@@ -3,21 +3,66 @@ body {
     margin: 0;
 }
 
-.container {
-    padding: 1.5rem;
-
-}
-
 header {
     box-shadow: 3px 3px 10px grey;
+    padding: 1.5rem;
 }
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 .btns {
     display: flex;
     justify-content: space-evenly;
+    max-height: 30px;
+}
+
+.jobs {
+    padding: 1rem;
+}
+
+.jobs img {
+    padding-left: 10px;
+}
+
+.sidebar {
+    border-left: 1px solid grey;
+}
+
+.card {
+    max-width: 100%;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.card img {
+    max-width: 20%;
+    margin: auto;
+    padding: 0.5em;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subsection {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+.text-section {
+    max-width: 60%;
+}
+
+.cta-section {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
 }
