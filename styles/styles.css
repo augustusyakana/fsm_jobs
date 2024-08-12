@@ -35,7 +35,7 @@ nav {
 .card {
     max-width: 100%;
     flex-direction: row;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .card img {
